@@ -1,0 +1,144 @@
+<!-- HEAD --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- Html -->
+<header class="background-home">
+  <nav class="navbar navbar-expand-md ">
+    <a class="navbar-brand" href="#"><img src="/assets/images/logo/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Missão</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>   
+         <li class="nav-item">
+          <a class="nav-link" href="#">Suporte</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#">RoadMap</a>
+        </li>   
+         <li class="nav-item navbar-button">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item navbar-button">
+          <a class="nav-link" href="#">Cadastre-se</a>
+        </li>       
+      </ul>
+    </div>  
+  </nav>
+  <section id="home" >
+    <div class="container">
+      <div class="informations-center">  
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3>Seja Bem vindo a <span>Forxer</span></h3> <br>
+            <p>Aqui você faz o seu dinheiro render muito mais</p>
+          </div>   
+        </div>
+     </div>  
+    </div>
+  </section>
+</header>
+
+<!-- CSS --> 
+body{
+background-color: white;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+a {
+    color: black!important;
+    text-decoration: none;
+    background-color: transparent;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+}
+h3{
+	font-size: 40px;
+	color: #fff;
+}
+p{
+	font-size: 15px;
+	color: #fff;
+}
+span{
+	font-weight: bolder;
+	color: #17a2b8;
+	text-transform: uppercase;
+
+}
+
+/* NAVBAR */
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color:transparent;
+}
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.navbar-button{
+   border: 1px solid #17a2b8;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin-left: 5px;
+    background: #17a2b8;
+    font-color: white!important;
+}
+.navbar-button:hover {
+   border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin-left: 5px;
+    background: #fff;
+    font-color: black!important;
+}
+/* HOME */
+.background-home{
+	background-image: url(../images/backgrounds/banner-home.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	
+}
+.informations-center{
+	margin-top: 25%;
+	margin-bottom:25%;
+}
+.informations-center h3{
+	font-size: 55px;
+}
+.informations-center p{
+	font-size: 20px;
+}
