@@ -10,7 +10,7 @@ Sections -> HTML, CSS and JS
         <div class="row">
             <div class="col-md-4 col-sm-12">
                 <div class="card">
-                    <img class="center-img" width="80px" height="80px" src="/assets/images/icons/mone.svg">
+                    <img class="center-img" width="80px" height="80px" src="/assets/images/icons/moe.svg">
                     <div class="card-body">
                         <h5>Segurança</h5>
                         <p>Temos os melhores desenvolvedores de softwares para garantir a total segurança do seu        investimento</p>
